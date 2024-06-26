@@ -10,6 +10,8 @@ description: |-
 
 Manages a role in Superset.
 
+-> Configuring roles in Superset requires the FAB Security API to be enabled. You can do this by setting `FAB_ADD_SECURITY_API = True` in your `superset_config.py`.
+
 ## Example Usage
 
 ```terraform

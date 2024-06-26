@@ -10,6 +10,8 @@ description: |-
 
 Fetches the permissions for a role from Superset.
 
+-> Fetching permissions in Superset requires the FAB Security API to be enabled. You can do this by setting `FAB_ADD_SECURITY_API = True` in your `superset_config.py`.
+
 ## Example Usage
 
 ```terraform
